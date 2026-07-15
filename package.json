@@ -16,7 +16,7 @@
     "prepare": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "waleed-zaheer073 <waleed.zaheer073@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^24.0.0",
