@@ -1,0 +1,25 @@
+{
+  "name": "my-snippets",
+  "version": "1.0.0",
+  "description": "CLI for managing code snippets",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "bin": {
+    "my-snippets": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
